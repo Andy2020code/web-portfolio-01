@@ -69,7 +69,7 @@
 .div-01-right-card{
     width: 700px;
     height: 500px;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .introduction{
@@ -167,6 +167,7 @@
     align-items: center;
     justify-content: center;
     margin: 20px 0px;
+    overflow: hidden;
 }
 
 .div-03-left{
@@ -234,6 +235,12 @@
     font-size: 15px;
 }
 
+@media (max-width: 1200px){
+    .div-03-left{
+        width: 400px;
+    }
+}
+
 @media(max-width: 500px){
     .div-03-layout{
         flex-direction: column;
@@ -291,7 +298,7 @@
 }
 
 .div-04-text{
-    width: 750px;
+    width: 700px;
     margin: 20px 20px;
 }
 
@@ -324,6 +331,13 @@
 @media (max-width: 1600px){
     .div-04-body img{
         width: 500px;
+    }
+}
+
+@media (max-width: 1200px){
+    .div-04-body{
+        max-width: 1200px;
+        overflow: hidden;
     }
 }
 
