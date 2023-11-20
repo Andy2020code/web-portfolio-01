@@ -213,6 +213,13 @@
         font-weight: 600;
         color: #fff;
     }
+
+    .go_btn{
+        height: auto;
+        position: relative;
+        left: 42%;
+        top: 30%;
+    }
 }
 
 
