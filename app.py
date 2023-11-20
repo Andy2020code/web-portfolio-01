@@ -30,13 +30,17 @@ def serve_index():
 def serve_our_services():
     return render_template('services.html')
 
-@app.route('/webapp')
+@app.route('/web-app')
 def serve_therapists():
     return render_template('web-app.html')
 
-@app.route('/take-action')
-def serve_take_action():
-    return render_template('take-action.html')
+@app.route('/zc')
+def zc_rating():
+    return render_template('zc.html')
+
+@app.route('/past-work-01')
+def past_works():
+    return render_template('past-web-dev-work.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=7000)
