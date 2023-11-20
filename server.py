@@ -4,7 +4,7 @@ from app import app  # Import your Flask app from app.py
 
 # Define Gunicorn options here
 options = {
-    'bind': '0.0.0.0:6000',
+    'bind': '0.0.0.0:7000',
     'workers': 1  # You can adjust the number of workers as needed
 }
 

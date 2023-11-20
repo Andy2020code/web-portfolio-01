@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #f5f5f5;
+
+}
+
+.div_01_layout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 600px;
+    height: 250px;
+    border: 2px solid #7297A6;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    position: relative; 
+    margin: 20px 50px ;
+}
+
+.overlay_transition {
+    overflow: hidden;
+    background-color: #7297A6;
+    width: 0; /* Start with 0% width */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease; /* Added transition property for smooth effect */
+}
+
+.overlay_transition_02 {
+    overflow: hidden;
+    background-color: #7297A6;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease; /* Added transition property for smooth effect */
+}
+
+.card-01:hover .overlay_transition {
+    width: 100%; /* Expand to 100% width on hover */
+}
+
+.card-02:hover .overlay_transition_02 {
+    width: 100%;
+}
+
+.title-01{
+    font-family: 'Archivo Black', sans-serif;
+    color: #7297A6;
+    position: absolute;
+    top: 35%;
+    left: 23.5%;
+}
+
+.title-02{
+    font-family: 'Archivo Black', sans-serif;
+    color: #7297A6;
+    position: absolute;
+    top: 35%;
+    left: 14%;
+}
+
+.title-01-1{
+    font-size: 25px;
+    font-family: 'Archivo Black', sans-serif;
+    width: 600px;
+    text-align: center;
+    margin: 10px 0px;
+    position: absolute;
+    top: 5%;
+}
+
+.title-01-2{
+    font-size: 25px;
+    font-family: 'Archivo Black', sans-serif;
+    width: 600px;
+    text-align: center;
+    margin: 10px 0px;
+    position: absolute;
+    top: 5%;
+}
+
+.hv{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    position: absolute;
+    top: 55%;
+    left: 38%;
+}
+
+.content-01{
+    width: 600px;
+    padding: 0px 20px;
+    margin: 10px 0px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    position: absolute;
+    top: 30%;
+}
+
+.go_btn{
+    height: auto;
+    position: relative;
+    left: 44%;
+    top: 86%;
+}
+
+.return-btn{
+    width: 100%;
+    height: 50px;
+    background-color: #011826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.return-btn a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media (max-width: 500px){
+    .div_01_layout{
+        flex-direction: column;
+    }
+
+    .card {
+        width: 370px;
+        height: 190px;
+        margin: 10px 0px ;
+    }
+
+    .title-01{
+        position: relative;
+        font-size: 40px;
+        text-align: center;
+        top:5%;
+        left: 0%;
+    }
+    
+    .title-02{
+        position: relative;
+        font-size: 40px;
+        text-align: center;
+        top: 5%;
+        left: 0%;
+    }
+
+    .hv{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+        position: absolute;
+        top: 75%;
+        left: 32%;
+    }
+
+    .title-01-1{
+        font-size: 20px;
+        width: 370px;
+        margin: 5px 0px;
+        position: absolute;
+        top: 0%;
+        color: #fff;
+    }
+    
+    .title-01-2{
+        font-size: 20px;
+        width: 370px;
+        margin: 5px 0px;
+        position: absolute;
+        top: 0%;
+        color: #fff;
+    }
+    
+    .content-01{
+        width: 370px;
+        padding: 0px 10px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        position: absolute;
+        top: 20%;
+    }
+
+    .return-btn{
+        width: 100%;
+        height: 50px;
+        background-color: #011826;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .return-btn a{
+        text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+
+
+
+
+
