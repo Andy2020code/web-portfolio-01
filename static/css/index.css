@@ -107,16 +107,6 @@
     border-radius: 10px;
 }
 
-@media (max-width: 1200px){
-    .div-01-right-card{
-        width: 700px;
-    }
-
-    .right-title {
-        font-size: 40px;
-    }
-}
-
 @media(max-width: 500px){
     .div-01-layout{
         width: 100%;

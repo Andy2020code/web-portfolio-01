@@ -215,10 +215,10 @@
     }
 
     .go_btn{
-        height: auto;
-        position: relative;
+        height: 40px;
+        position: absolute;
         left: 42%;
-        top: 30%;
+        top: 85%;
     }
 }
 
