@@ -38,6 +38,10 @@ def serve_therapists():
 def zc_rating():
     return render_template('zc.html')
 
+@app.route('/ocs')
+def past_works_index():
+    return render_template('ocs.html')
+
 @app.route('/past-work-01')
 def past_works():
     return render_template('past-web-dev-work.html')
@@ -45,5 +49,7 @@ def past_works():
 @app.route('/past-work-index')
 def past_works_index():
     return render_template('past-work-index.html')
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=6000)
