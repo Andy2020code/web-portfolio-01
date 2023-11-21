@@ -39,7 +39,7 @@ def zc_rating():
     return render_template('zc.html')
 
 @app.route('/ocs')
-def past_works_index():
+def osc_rating():
     return render_template('ocs.html')
 
 @app.route('/past-work-01')
