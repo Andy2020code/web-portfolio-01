@@ -47,6 +47,25 @@
     bottom: 35px;
 }
 
+@media (max-width :500px){
+    .div-01-body{
+        width: 300px;
+        height: 100px;
+    }
+
+    .div-01-title{
+        font-size: 32px;
+        width: 270px;
+        height: 80px;    
+    }  
+
+    .div-01-text-content-01{
+        font-size: 15px;
+        position: relative;
+        bottom: 25px;
+    }
+}
+
 
 
 
@@ -141,6 +160,46 @@
     top: 20px;
 }
 
+@media (max-width: 500px){
+    .div-02-title{
+        width:370px;
+        height: auto;
+        margin: 0px 0px;
+        flex-direction: column;
+    }
+
+    .div-02-profile-pic{
+        margin: 20px 0px;
+    }
+
+    .right-div-02{
+        width: 370px;
+        height: auto;
+    }
+    
+    .div-02-title-01{
+        font-size: 30px;
+    }
+    
+    .div-02-content-01{
+        font-family: 'Archivo Black', sans-serif;
+        font-weight: 400;
+    }
+
+    .left-div-02{
+        width: 370px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        margin: 20px 0px ;
+    }
+
+    .left-div-02 h1{
+        font-size: 17px
+    }
+}
 
 
 
@@ -214,6 +273,43 @@
     font-weight: 300;
 }
 
+@media (max-width: 500px) {
+    .div-03-layout{
+        flex-direction: column;
+    }
+
+    .left-div-03{
+        width: 370px;
+        height: auto;
+        margin: 10px 0px;
+    }
+
+    .title-03{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .div-03-title-02{
+        width: 350px;
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Archivo Black', sans-serif;
+        margin: 10px 0px;
+    }
+
+    .right-div-03{
+        width: 370px;
+        height: auto;
+        margin: 10px 0px;
+    }
+    
+    .div-03-title-03{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+}
+
+
 
 
 .div-04-layout{
@@ -227,73 +323,96 @@
     margin-bottom: 50px;
 }
 
+@media (max-width: 500px){
+    .div-04-layout h1{
+        text-align: center;
+        font-family: 'Archivo Black', sans-serif;
+        margin-bottom: 50px;
+    }
+}
+
+
 
 
 .div-05-layout{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card01{
+    width: 850px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.card{
-    width: 1200px;
-    height: 250px;
-    border: 1px solid #022E40;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 0px;
-}
-
-.card-title-01{
-    width: 200px;
-    height: 200px;
-    padding-top: 50px;
-    text-align: center;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 25px;
-    color: #7297A6;
     margin: 0px 20px;
 }
 
-
-.devider-02{
-    width: 2px;
-    height: 150px;
-    background-color: #022E40;
-}
-
-.card-content-01{
-    width: 1200px;
-    padding: 10px;
-    font-size: 15px;
+.card01 h1{
+    font-size: 25px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
 }
 
-.pd-layout{
-    width: 200px;
-    height: 120px;
-    margin: 0px 10px;
-    border: 1px solid #022E40;
-    border-radius: 20px;
-}
-
-.div-05-title-02{
-    font-size: 19px;
-    text-align: center;
-    font-family: 'Archivo Black', sans-serif;
-    color: #7297A6;
-    margin: 20px 0px;
-}
-
-.title-05-span{
-    font-size: 20px;
+.sub-text{
     font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
-    position: relative;
-    top: 10px;
+    font-weight: 600;
+}
+
+.duration{
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #022E40;
+    border-radius: 10px;
+}
+
+.description-div-05{
+    font-size: 15px;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    margin: 20px 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+@media (max-width: 500px){
+    .div-05-layout{
+        flex-direction: column;
+    }
+
+    .card01{
+        width: 370px;
+        height: 700px;
+        margin: 20px 0px;
+    }
+
+    .card01 h1{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .sub-text{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 600;
+    }
+
+    .description-div-05{
+        font-size: 14px;
+        text-align: center;
+        width: 350px;
+        height: auto;
+        margin: 20px 0px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+    }
+    
 }
