@@ -50,6 +50,10 @@ def past_works():
 def past_works_index():
     return render_template('past-work-index.html')
 
+@app.route('/web-resume')
+def web_resume():
+    return render_template('resume.html')
+
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=6000)
+    app.run(host='0.0.0.0', port=7000)
