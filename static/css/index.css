@@ -137,6 +137,33 @@
     }
 }
 
+@media (max-width: 1100px){
+    .div-01-right-card{
+        width: 550px;
+    }
+
+    .profile-pic{
+        width: 320px;
+        height: 260px;
+    }
+    
+    .profile-pic img{
+        right: 130px;
+    }
+
+    .right-title{
+        font-size: 36px;
+    }
+
+    .right-intro-text{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        font-size: 16px;
+        color: #A9CBD9;
+        border-radius: 10px;
+    }
+}
+
 @media(max-width: 500px){
     .div-01-layout{
         width: 100%;
@@ -256,7 +283,7 @@
 }
 
 .card-title{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     color: #346173;
     font-family: 'Roboto Mono', monospace;
@@ -270,6 +297,30 @@
     font-weight: 300;
     font-size: 15px;
 }
+
+@media (max-width: 1100px){
+    .div-03-left{
+        width: 375px;
+        height: 475px;
+        margin: 0px 20px;
+    }
+
+    .a12{
+        font-size: 150px;
+        color: #346173;
+    }
+    
+
+    .card{
+        border: 2px solid #011826;
+        border-radius: 20px;
+        width: 275px;
+        height: 225px;
+        margin-top: 25px;
+    }
+}
+
+
 
 @media(max-width: 500px){
     .div-03-layout{
@@ -364,6 +415,26 @@
     }
 }
 
+@media (max-width: 1400px){
+    .div-04-body{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+
+    .div-04-body img{
+        width: 500px;
+    }
+
+    .div-04-text{
+        width: 450px;
+        margin: 20px 20px;
+    }
+}
+
+
 @media (max-width: 500px){
 
     .div-04-layout{
@@ -442,6 +513,15 @@
     font-size: 17px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
+}
+
+@media (max-width: 1400px){
+    .devider{
+        width: 50%;
+        left: 0%;
+        margin: 1% 25%;
+    }
+
 }
 
 @media (max-width: 500px){
