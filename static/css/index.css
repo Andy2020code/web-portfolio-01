@@ -119,6 +119,24 @@
     font-weight: 300;
 }
 
+@media (max-width: 1400px){
+    .div-01-right-card{
+        width: 700px;
+    }
+
+    .right-title{
+        font-size: 36px;
+    }
+
+    .right-intro-text{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        font-size: 18px;
+        color: #A9CBD9;
+        border-radius: 10px;
+    }
+}
+
 @media(max-width: 500px){
     .div-01-layout{
         width: 100%;
