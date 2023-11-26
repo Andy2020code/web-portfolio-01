@@ -164,6 +164,56 @@
     position: relative;
     top: 20px;
 }
+
+@media (max-width: 1600px){
+    .div-02-layout{
+        overflow: hidden;
+    }
+
+    .div-02-title{
+        width: 1200px;
+        height: 200px;
+        margin: 10px 0px;
+    }
+
+    .div-02-profile-pic{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .div-02-profile-pic img{
+        width: 150px;
+        position: relative;
+        bottom: 20px;
+        right: 5px;
+    }
+
+    .right-div-02{
+        width: 300px;
+        height: 250px;
+    }
+
+    .div-02-title-01{
+        font-size: 22px;
+        font-family: 'Archivo Black', sans-serif;
+    }
+
+    .div-02-title-02{
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 17px;
+        text-align: left;
+    }
+
+    .left-div-02{
+        width: 450px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
 @media (max-width: 1400px){
     .div-02-layout{
         overflow: hidden;
@@ -357,7 +407,7 @@
 
     .left-div-03{
         width: 370px;
-        height: auto;
+        height: 250px;
         margin: 10px 0px;
     }
 
@@ -402,6 +452,14 @@
 }
 
 .div-04-layout h1{
+    background-color: #7A9E9F;
+    color: #EEF5DB;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    bottom: -52.5%;
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
     margin-bottom: 50px;
