@@ -419,7 +419,7 @@
 }
 
 .card01{
-    width: 600px;
+    width: 550px;
     height: 600px;
     border: 1px solid black;
     border-radius: 20px;
@@ -453,7 +453,7 @@
 .description-div-05{
     font-size: 15px;
     text-align: center;
-    width: 550px;
+    width: 500px;
     height: auto;
     margin: 20px 0px;
     font-family: 'Roboto Mono', monospace;
