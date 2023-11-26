@@ -83,23 +83,23 @@
 }
 
 .div-02-profile-pic{
-    width: 250px;
-    height: 250px;
+    width: 170px;
+    height: 170px;
     overflow: hidden;
     border-radius: 250px;
     border: 3px solid #022E40;
 }
 
 .div-02-profile-pic img{
-    width: 300px;
+    width: 200px;
     position: relative;
-    bottom: 60px;
-    right: 25px;
+    bottom: 50px;
+    right: 20px;
 }
 
 .div-02-title{
     width: 1500px;
-    height: 300px;
+    height: 200px;
     border: 1px solid #022E40;
     border-radius: 20px;
     margin: 0px 50px;
