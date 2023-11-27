@@ -72,13 +72,12 @@
     </div>
 
     <div class="div-05-layout">
-
         <div class="card01 card-01">
             <h1>Zen Counseling International / <br><span class="sub-text">WEB DEVELOPER</span></h1>
             <p class="duration">September, 2023 to Present</p>
             <p class="description-div-05">Engineered Zen Counseling's website with responsive design using HTML, CSS, and JavaScript. Optimized typography with Google Fonts and Typekit. Implemented a sleek navigation bar with a burger menu for mobile accessibility. Crafted a compelling mission statement using HTML/CSS and incorporated individualized therapy service cards. Employed back-end technologies for dynamic content display, potentially using a CMS. Integrated a clear call to action for appointment requests with HTML forms and client-side validation. Showcased colleague endorsements dynamically with back-end scripting. Utilized JavaScript frameworks for interactive therapy practice cards. Implemented server-side technologies for efficient appointment handling. Organized the footer with quick navigation links and social media integration using backend scripting and potentially APIs.</p>
-            <p class="ltb">Hosted at <a href="http://zencouseling.arv2.net">http://zencouseling.arv2.net</a></p>
-            <button class="collapse-btn" onclick="toggleContent()">See More</button>
+            <p class="ltb">Hosted at <a href="http://zencounseling.arv2.net">http://zencounseling.arv2.net</a></p>
+            <button class="collapse-btn" onclick="toggleContent('description-div-05')">See More</button>
         </div>
 
 
@@ -86,8 +85,9 @@
         <div class="card01 card-02">
             <h1>One Source Climate / <br><span class="sub-text">WEB DEVELOPER</span></h1>
             <p class="duration">September, 2023 to Present</p>
-            <p class="description-div-05">Crafted a responsive website using HTML and CSS, focused on showcasing products and services. Incorporated a sleek design with Google Fonts and Typekit for enhanced readability. Sections include design experience, navigation bar, mission statement, services, contact details, responsive design, blog, and a footer for easy navigation and social media links. Special emphasis on the blog page with informational cards offering maintenance tips and individual cards detailing each service. Responsiveness ensured through a meta viewport tag.</p>
+            <p class="description-div-05-01">Crafted a responsive website using HTML and CSS, focused on showcasing products and services. Incorporated a sleek design with Google Fonts and Typekit for enhanced readability. Sections include design experience, navigation bar, mission statement, services, contact details, responsive design, blog, and a footer for easy navigation and social media links. Special emphasis on the blog page with informational cards offering maintenance tips and individual cards detailing each service. Responsiveness ensured through a meta viewport tag.</p>
             <p class="ltb">Hosted at <a href="http://onesourceclimate.arv2.net">http://onesourceclimate.arv2.net</a></p>
+            <button class="collapse-btn" onclick="toggleContent('description-div-05-01')">See More</button>
         </div>
 
 
@@ -95,27 +95,20 @@
         <div class="card01 card-02">
             <h1>G Lux / <br><span class="sub-text">WEB DEVELOPER</span></h1>
             <p class="duration">July, 2023 to Present</p>
-            <p class="description-div-05">Crafted a responsive website using HTML and CSS, focused on showcasing products and services. Incorporated a sleek design with Google Fonts and Typekit for enhanced readability. Sections include design experience, navigation bar, mission statement, services, contact details, responsive design, blog, and a footer for easy navigation and social media links. Special emphasis on the blog page with informational cards offering maintenance tips and individual cards detailing each service. Responsiveness ensured through a meta viewport tag.</p>
+            <p class="description-div-05-02">Crafted a responsive website using HTML and CSS, focused on showcasing products and services. Incorporated a sleek design with Google Fonts and Typekit for enhanced readability. Sections include design experience, navigation bar, mission statement, services, contact details, responsive design, blog, and a footer for easy navigation and social media links. Special emphasis on the blog page with informational cards offering maintenance tips and individual cards detailing each service. Responsiveness ensured through a meta viewport tag.</p>
             <p class="ltb">Hosted at <a href="http://glux.arv2.net">http://glux.arv2.net</a></p>
+            <button class="collapse-btn" onclick="toggleContent('description-div-05-02')">See More</button>
         </div>
 
         <div class="card">
-            <div class="card-content">
-              <p>This is some hidden text. You can reveal it by clicking the button below.</p>
-            </div>
-            <button class="collapse-btn" onclick="toggleContent()">Toggle Content</button>
           </div>
           
-          <script>
-            function toggleContent() {
-              var cardContent = document.querySelector('.description-div-05');
-              cardContent.style.display = (cardContent.style.display === 'none' || cardContent.style.display === '') ? 'block' : 'none';
-            }
-          </script>
+
+
         </div>
     </div>
 
 
-    
+    <script src="/static/js/index.js"></script>
 </body>
 </html>

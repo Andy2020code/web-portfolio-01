@@ -486,7 +486,7 @@
 
 .card01{
     width: 550px;
-    height: 600px;
+    height: auto;
     border: 1px solid black;
     border-radius: 20px;
     display: flex;
@@ -494,6 +494,7 @@
     align-items: center;
     justify-content: center;
     margin: 20px 20px;
+    padding: 20px;
 }
 
 .card01 h1{
@@ -516,7 +517,9 @@
     border-radius: 10px;
 }
 
-.description-div-05{
+.description-div-05,
+.description-div-05-01,
+.description-div-05-02{
     font-size: 15px;
     text-align: center;
     width: 500px;
@@ -524,6 +527,21 @@
     margin: 20px 0px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
+    display: none;
+}
+
+.collapse-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #7A9E9F;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0px;
 }
 
 @media (max-width: 1400px){
