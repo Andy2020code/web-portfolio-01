@@ -510,3 +510,11 @@
     margin: 0px 10px;
     text-decoration: none;
 }
+
+@media (max-width: 500px){
+    .card{
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
