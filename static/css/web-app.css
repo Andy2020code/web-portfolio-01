@@ -10,7 +10,7 @@
 }
 
 .div-01-layout{
-    width: 1005;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

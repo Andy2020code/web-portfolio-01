@@ -54,6 +54,10 @@ def past_works_index():
 def web_resume():
     return render_template('resume.html')
 
+@app.route('/asset-library')
+def asset_update():
+    return render_template('asset-library-01.html')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=7000)

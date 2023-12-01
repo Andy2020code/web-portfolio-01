@@ -562,6 +562,55 @@
 }
 
 
+.div-05-layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-05-card{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #346173;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.div-05-title-01{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+    color: #346173;
+    margin: 20px 10px;
+}
+
+.div-05-img-01{
+    width: 300px;
+
+}
+
+.check-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #7297A6;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 20px 0px;
+    transition: .3s all ease;
+}
+
+.check-btn:hover{
+    background-color: #022E40;
+    color: #fff;
+    cursor: pointer;
+}
 
 
 
