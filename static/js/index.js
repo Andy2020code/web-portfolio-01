@@ -87,6 +87,6 @@ carousel.addEventListener("touchend", dragStop);
 
 
 function toggleContent(elementId) {
-    var element = document.querySelector('.' + elementId);
+    var element = document.querySelector('.card-01-01' + elementId);
     element.style.display = (element.style.display === 'none' || element.style.display === '') ? 'block' : 'none';
 }

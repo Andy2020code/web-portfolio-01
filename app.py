@@ -38,9 +38,9 @@ def serve_therapists():
 def zc_rating():
     return render_template('zc.html')
 
-@app.route('/ocs')
+@app.route('/osc')
 def osc_rating():
-    return render_template('ocs.html')
+    return render_template('osc.html')
 
 @app.route('/past-work-01')
 def past_works():
