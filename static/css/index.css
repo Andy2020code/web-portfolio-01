@@ -565,7 +565,6 @@
 .div-05-layout{
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -579,6 +578,7 @@
     border: 3px solid #346173;
     border-radius: 20px;
     overflow: hidden;
+    margin: 0px 20px;
 }
 
 .div-05-title-01{
@@ -590,7 +590,7 @@
 }
 
 .div-05-img-01{
-    width: 300px;
+    width: 250px;
 
 }
 

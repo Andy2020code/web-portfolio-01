@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #f5f5f5;
+
+}
+
+.title-01{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.content-01{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.div-01-layout{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.div-01-layout img{
+    width: 100%;
+    height: auto;
+}
+
+.div-02-layout{
+    width: 100%;
+    margin: 50px auto;
+}
+
+.div-03-layout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-03{
+    width: 360px;
+    margin: 0px 30px;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px){
+    .img-03{
+        margin: 20px 0px;
+    }
+}
+
+
+
+
+
+.div-04-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #022E40;
+    margin: 20px 0px;
+}
+
+.slider-wrapper .image-list{
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.div-04-layout .slider-scrollbar{
+    height: 24px;
+    width: 100%;
+    background-color: red;
+}
