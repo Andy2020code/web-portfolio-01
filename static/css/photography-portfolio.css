@@ -60,6 +60,13 @@
     border-radius: 10px;
 }
 
+@media (max-width: 1400px){
+    .img-03{
+        width: 300px;
+        margin: 20px 20px;
+    }
+}
+
 @media (max-width: 500px){
     .img-03{
         margin: 20px 0px;
@@ -143,12 +150,32 @@
   }
 
 
-  @media screen and (max-width: 900px) {
-    .carousel img{
-      width: calc(100% / 2);
+  @media screen and (max-width: 1400px) {
+
+    .div-04-layout {
+        height: 90vh;
     }
+
+    .wrapper{
+        max-width: 1000px;
+    }
+    .carousel img{
+      width: calc(100% / 3);
+      height: 500px;
+    }
+
+    
   }
   @media screen and (max-width: 550px) {
+
+    .div-04-layout {
+        height: 100vh;
+    }
+
+    .title-02{
+        text-align: center;
+    }
+
     .carousel img{
       width: 100%;
     }

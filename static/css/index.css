@@ -680,3 +680,19 @@
     color: #fff;
     transition: .3s;
 }
+
+@media (max-width: 500px){
+    .div-05-layout{
+        flex-direction: column;
+    }
+
+    .div-05-card{
+        width: 300px;
+        margin: 20px 0px;
+    }
+
+    .div-05-img-01{
+        width: 150px;
+    }
+    
+}
