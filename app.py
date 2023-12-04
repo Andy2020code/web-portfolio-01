@@ -62,6 +62,10 @@ def asset_update():
 def photo_portfolio():
     return render_template('photography-portfolio.html')
 
+@app.route('/graphic-design')
+def graphic_design_portfolio():
+    return render_template('graphic-design-portfolio.html')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=7000)
