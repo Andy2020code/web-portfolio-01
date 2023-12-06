@@ -10,13 +10,56 @@
 </head>
 <body>
     
-    <div class="div-05-layout">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.querySelector(".div-01-body");
+            const cards = document.querySelectorAll(".card");
+            let currentIndex = 0;
 
-        <div class="div-05-body">
-            <h1 class="title-div-04">Leave us <br>Your Feedback!</h1>
-            <a href="/contact-us"><button class="div-04-btn-01">Contact Us</button></a>
+            function showCard(index) {
+                const newTransformValue = -index * 100 + "%";
+                slider.style.transform = "translateX(" + newTransformValue + ")";
+            }
+
+            function nextCard() {
+                currentIndex = (currentIndex + 1) % cards.length;
+                showCard(currentIndex);
+            }
+
+            function prevCard() {
+                currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+                showCard(currentIndex);
+            }
+
+            // Add event listeners for next and previous buttons
+            document.getElementById("btn-prev").addEventListener("click", prevCard);
+            document.getElementById("btn-next").addEventListener("click", nextCard);
+        });
+    </script>
+
+
+<div class="div-01-layout">
+    <div class="div-01-body">
+        <div class="card card-01">
+            <h1 class="title-div-01-01">
+                card01
+            </h1>
+        </div>
+        <div class="card card-02">
+            <h1 class="title-div-01-01">
+                card02
+            </h1>
+        </div>
+        <div class="card card-03">
+            <h1 class="title-div-01-01">
+                card03
+            </h1>
         </div>
     </div>
+</div>
+
+<button id="btn-prev">Previous</button>
+<button id="btn-next">Next</button>
       
 
 </body>
