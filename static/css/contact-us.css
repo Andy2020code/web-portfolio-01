@@ -5,9 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/static/IMG/contact-us-img/bg-01.jpeg);
+    background-image: url(/static/IMG/photography-port-img/slider-01/hardrock-01.jpg);
     background-size: cover;
-    background-position: -450px 0px;
+    background-position: 0px -800px;
 }
 
 .div-01-body{
@@ -28,7 +28,7 @@
 
 .div-01-right img{
     width: 400px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -52,6 +52,8 @@
 
 .full-name label{
     font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
 }
 
 .full-name input{
@@ -72,6 +74,8 @@
 
 .email label{
     font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
 }
 
 .email input{
@@ -91,6 +95,8 @@
 
 .message label{
     font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
 }
 
 .message-input{
@@ -105,6 +111,7 @@
     width: 150px;
     height: 40px;
     margin: 20px auto;
+    border-radius: 10px;
 }
 
 @media(max-width: 500px){

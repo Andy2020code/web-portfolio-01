@@ -323,6 +323,18 @@
   .div-03-btn-01:hover{
     cursor: pointer;
   }
+
+  @media(max-width: 1600px){
+    .div-03-body{
+        width: 70%;
+        height: 200px;
+        background-color: #7297A6;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+  }
  
  @media(max-width: 1400px){
     .div-03-body{
