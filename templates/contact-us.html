@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/contact-us.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="div-01-layout">
+        <div class="div-01-body">
+
+            <div class="div-01-right">
+                <img src="/static/IMG/right-div-contact-us.jpeg" alt="">
+            </div>
+            
+
+            <div class="div-01-left">
+                
+                <div class="full-name">
+                    <label for="name">Full Name :</label>
+                    <input type="name" id="name" placeholder="Enter your Full Name...">
+                </div>
+        
+                <div class="email">
+                    <label for="email">E-Mail :</label>
+                    <input type="emal" id="email" placeholder="Enter your E-mail...">
+                </div>
+        
+                <div class="message">
+                    <label for="message">Message :</label>
+                    <textarea class="message-input" id="message" rows="15"></textarea>
+                </div>
+
+                <button onclick="sendMessage()">Send Message</button>
+            </div>
+
+        </div>
+
+        <script>
+            function sendMessage() {
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var message = document.getElementById('message').value;
+    
+                // You can perform client-side validation here if needed
+    
+                // Create an object to store form data
+                var formData = {
+                    name: name,
+                    email: email,
+                    message: message
+                };
+    
+                // Send a POST request to the server using AJAX
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '/submit_contact_form', true); // Replace with your server endpoint
+                xhr.setRequestHeader('Content-Type', 'application/json');
+    
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        // Handle success, for example, show a thank you message
+                        alert('Message sent successfully! Thank you for contacting us.');
+                    } else {
+                        // Handle error
+                        alert('Error sending message. Please try again later.');
+                    }
+                };
+    
+                // Convert the form data to JSON and send it to the server
+                xhr.send(JSON.stringify(formData));
+            }
+        </script>
+
+    </div>
+
+</body>
+</html>

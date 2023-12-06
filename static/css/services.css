@@ -285,3 +285,33 @@
         text-decoration: none;
     }
 }
+
+.div-03-layout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-03-body{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7297A6;.
+}
+
+.left-div-03{
+    width: 450px;
+    height: 80px;
+}
+
+.title-div-03{
+    margin: auto 10px;
+}
+
+.right-div-03{
+    width: 450px;
+    height: 100px;
+}
