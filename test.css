@@ -8,3 +8,35 @@
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7), url(/static/IMG/contact-us-img/bg-01.jpeg));
  }
+
+ .div-05-layout{
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .div-05-body{
+   width: 50%;
+   height: 200px;
+   background-color: aqua;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .title-div-04{
+   font-family: 'Archivo Black', sans-serif;
+   margin: 0px 20px;
+ }
+
+ .div-04-btn-01{
+   width: 150px;
+   height: 40px;
+   border-radius: 10px;
+   background-color: #fff;
+   margin: 0px 20px;
+ }
+

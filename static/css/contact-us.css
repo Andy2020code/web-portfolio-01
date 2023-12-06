@@ -106,3 +106,27 @@
     height: 40px;
     margin: 20px auto;
 }
+
+@media(max-width: 500px){
+    .div-01-body{
+        width: 370px;
+        height: 700px;
+        flex-direction: column;
+    }
+
+    .div-01-right{
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .div-01-left{
+        width: 350px;
+        height: 570px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
