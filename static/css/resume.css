@@ -315,88 +315,53 @@
 .div-03-layout{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
     padding: 20px 0px;
 }
 
-.left-div-03{
-    width: 500px;
-    height: 250px;
-    border: 1px solid #bbbe64;
-    border-radius: 20px;
+.objective-div{
+    width: 70%;
     display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    margin: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.right-div-03{
-    width: 600px;
-    height: 250px;
-    border: 1px solid #bbbe64;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0px 10px;
-}
-
-.title-03{
-    text-align: left;
+.objective{
     font-size: 36px;
-    margin: 20px 20px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.front-devider{
+    width: 80%;
+    border: 1px solid black;
+}
+
+.objective-content{
+    width: 70%;
+    height: auto;
+}
+
+.objective-text{
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
-}
-
-.div-03-title-02{
-    text-align: left;
-    width: 500px;
-    font-size: 20px;
-    font-family: 'Archivo Black', sans-serif;
-    margin: 10px 20px;
-    color: #2a4747;
-}
-
-.div-03-title-03{
-    width: 550px;
-    font-size: 20px;
-    font-family: 'Archivo Black', sans-serif;
-    text-align: center;
-    color: #2a4747;
-    margin: 0px 20px;
-}
-
-.title-03-span{
-    font-size: 17px;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-}
-
-.title-04-span{
-    font-size: 15px;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
+    text-align: justify;
 }
 
 @media (max-width: 1400px){
-    .left-div-03{
-        width: 450px;
-        height: 250px;
+    .objective-div{
+        width: 85%;
     }
 
-    .title-03{
-        text-align: center;
-        font-size: 28px;
-        margin: 10px 0px;
+    .front-devider{
+        width: 75%;
     }
 
-    .div-03-title-02{
-        width: 400px;
-        font-size: 20px;
+    .objective-content{
+        width: 84%;
+        height: auto;
     }
 }
 
