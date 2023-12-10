@@ -19,42 +19,12 @@
 
 .card {
     width: 600px;
-    height: 250px;
+    height: 150px;
     border: 2px solid #7297A6;
     border-radius: 10px;
     background-color: #f5f5f5;
     position: relative; 
     margin: 20px 50px ;
-}
-
-.overlay_transition {
-    overflow: hidden;
-    background-color: #7297A6;
-    width: 0; /* Start with 0% width */
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: width 0.3s ease; /* Added transition property for smooth effect */
-}
-
-.overlay_transition_02 {
-    overflow: hidden;
-    background-color: #7297A6;
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: width 0.3s ease; /* Added transition property for smooth effect */
-}
-
-.card-01:hover .overlay_transition {
-    width: 100%; /* Expand to 100% width on hover */
-}
-
-.card-02:hover .overlay_transition_02 {
-    width: 100%;
 }
 
 .title-01{
@@ -71,45 +41,6 @@
     position: absolute;
     top: 35%;
     left: 14%;
-}
-
-.title-01-1{
-    font-size: 25px;
-    font-family: 'Archivo Black', sans-serif;
-    width: 600px;
-    text-align: center;
-    margin: 10px 0px;
-    position: absolute;
-    top: 5%;
-}
-
-.title-01-2{
-    font-size: 25px;
-    font-family: 'Archivo Black', sans-serif;
-    width: 600px;
-    text-align: center;
-    margin: 10px 0px;
-    position: absolute;
-    top: 5%;
-}
-
-.hv{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    position: absolute;
-    top: 55%;
-    left: 38%;
-}
-
-.content-01{
-    width: 600px;
-    padding: 0px 20px;
-    margin: 10px 0px;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    position: absolute;
-    top: 30%;
 }
 
 .go_btn{
@@ -143,7 +74,7 @@
 
     .card {
         width: 370px;
-        height: 190px;
+        height: 150px;
         margin: 10px 0px ;
     }
 

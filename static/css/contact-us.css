@@ -138,8 +138,6 @@
         width: 90%;
         height: 570px;
         overflow: visible;
-        position: relative;
-        right: 10px;
     }
 
     .full-name{
