@@ -408,6 +408,42 @@
     }
 }
 
+.div-04-layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.education-div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education{
+    font-size: 36px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.education-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-01{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+.degree{
+    font-weight: 100;
+}
 
 .div-05-layout
 {
