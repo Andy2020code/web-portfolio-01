@@ -124,6 +124,7 @@
     .div-01-body{
         width: 95%;
         height: 70vh;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -134,7 +135,7 @@
     }
 
     .div-01-left{
-        width: 80%;
+        width: 90%;
         height: 570px;
         display: flex;
         flex-direction: column;
@@ -159,7 +160,7 @@
     }
 
     .message{
-        width: 90%;
+        width: 95%;
         height: auto;
         display: flex;
         flex-direction: column;
