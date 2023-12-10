@@ -137,6 +137,7 @@
     .div-01-left{
         width: 90%;
         height: 570px;
+        overflow: visible;
         position: relative;
         right: 10px;
     }
