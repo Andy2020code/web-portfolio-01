@@ -11,30 +11,26 @@
     
     <div class="div-01-layout">
         <div class="div-01-body">
-
-            <div class="div-01-right">
-                <img src="/static/IMG/photography-port-img/automotive-pics/2.jpg" alt="">
-            </div>
             
+            <div class="left-div">
 
-            <div class="div-01-left">
-                
-                <div class="full-name">
-                    <label for="name">Full Name :</label>
-                    <input type="name" id="name" placeholder="Enter your Full Name...">
-                </div>
-        
-                <div class="email">
-                    <label for="email">E-Mail :</label>
-                    <input type="emal" id="email" placeholder="Enter your E-mail...">
-                </div>
-        
-                <div class="message">
-                    <label for="message">Message :</label>
-                    <textarea class="message-input" id="message" rows="15"></textarea>
-                </div>
+                <h1 class="title-01">Get In Touch</h1>
 
-                <button onclick="sendMessage()">Send Message</button>
+                <label for="name" class="name">Name</label>
+                <input type="name" class="name" id="name" placeholder="Enter your name here...">
+
+                <label for="email" class="email">Email</label>
+                <input type="email" class="email" id="email" placeholder="Enter your e-mail here...">
+
+                <label for="message" class="message">Message</label>
+                <textarea class="message-input" id="message" rows="15"></textarea>
+
+                <button class="sm" onclick="sendMessage()">Send Message</button>
+            </div>
+
+
+            <div class="right-div">
+                <img src="/static/IMG/certified.png" alt="">
             </div>
 
         </div>
