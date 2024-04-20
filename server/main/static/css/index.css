@@ -12,72 +12,18 @@
 .div-01-layout{
     width: 100%;
     height: 600px;
-    background-color: #022E40;
+    background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)),url(../IMG/left-img/profile-pic.jpeg);
+    background-size: 150%;
+    background-position: 0px -550px;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.div-01-profile-card{
-    width: 380px;
-    height: 500px;
-    background-color: #7297A6;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 20px;
 }
-
-.profile-pic{
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.profile-pic img{
-    width: 550px;
-    position: relative;
-    bottom: 70px;
-    right: 100px;
-}
-
-.profile-pic-icons{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;    
-    margin: 20px 0px;
-}
-
-.profile-pic-icons img{
-    width: 60px;
-}
-
-.go-btn{
-    width: 150px;
-    height: 40px;
-    background-color: #396E9C;
-    border-radius: 10px;
-    color: #F5E5BA;
-    margin: 0px 10px;
-    transition: .3s all ease;
-}
-
-.go-btn:hover{
-    background-color: #011826;
-    border: 2px solid white;
-    cursor: pointer;
-}
-
-
 
 .div-01-right-card{
     width: 800px;
     height: 500px;
-    margin: 0px 20px;
+    margin: 0px 50px;
 }
 
 .introduction{
@@ -119,7 +65,13 @@
     font-weight: 300;
 }
 
+
 @media (max-width: 1400px){
+
+    .div-01-layout{
+        background-position: 0px -350px;
+    }
+
     .div-01-right-card{
         width: 700px;
     }
@@ -137,7 +89,14 @@
     }
 }
 
-@media (max-width: 1100px){
+@media (max-width: 1200px){
+    .div-01-layout{
+        width: 100%;
+        height: 600px;
+        background-position: 0px -250px;
+        margin-top: 0px;
+    }
+
     .div-01-right-card{
         width: 550px;
     }
@@ -167,32 +126,19 @@
 @media(max-width: 500px){
     .div-01-layout{
         width: 100%;
-        height: auto;
-        background-color: #022E40;
-        flex-direction: column;
-    }
-
-    .div-01-profile-card{
-        width: 350px;
-        height: 450px;
-    }
-
-    .profile-pic{
-        width: 300px;
-        height: 250px;
-        border-radius: 10px;
-        overflow: hidden;
-    }
-
-    .profile-pic img{
-        width: 500px;
-        right: 110px;
+        height: 110vh;
+        background-image: linear-gradient(rgba(4,9,30,.5),rgba(4,9,30,.5)),url(../IMG/left-img/profile-pic.jpeg);
+        background-size: 150%;
+        background-position: -100px 0px;
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
     }
 
     .div-01-right-card{
         width: 100%;
-        height: 500px;
-        margin: 150px 20px;
+        height: 100%;
+        margin: 0px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -218,6 +164,87 @@
     }
 }
 
+
+.div-02-layout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.div-02-profile-card{
+    width: 90%;
+    height: 400px;
+    background-color: #7297A6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.lmamw{
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.lmamw-icons{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    margin: 20px 0px;
+}
+
+.lmamw-icons img{
+    width: 60px;
+}
+
+.lmamw-icons img:hover{
+    width: 100px;
+}
+
+.go-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #396E9C;
+    border-radius: 10px;
+    color: #F5E5BA;
+    margin: 0px 10px;
+    transition: .3s all ease;
+}
+
+.go-btn:hover{
+    background-color: #011826;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+@media(max-width: 500px){
+    .div-02-profile-card{
+        width: 95%;
+        height: 500px;
+        margin: 20px 0px;
+    }
+
+    .lmamw{
+        width: auto;
+        height: 250px;
+        border-radius: 10px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        color: #f5f5f5;
+        text-align: center;
+    }
+}
 
 
 
@@ -362,12 +389,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 20px;
+    margin: 20px 0px;
     overflow: hidden;
 }
 
 .div-04-body{
-    max-width: 1920px;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
