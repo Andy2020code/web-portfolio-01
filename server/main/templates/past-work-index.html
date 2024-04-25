@@ -25,7 +25,7 @@
         <div class="card card-01">
 
             <h1 class="title-01">STATIC WEBSITES</h1>
-            <a href="/past-work-01" class="go_btn">See Work</a>
+            <a href="{% url 'main:past-work' %}" class="go_btn">See Work</a>
 
 
         </div>
@@ -40,7 +40,7 @@
     </div>
 
     <div class="return-btn">
-        <a href="/index">Return Home</a>
+        <a href="{% url 'main:index' %}">Return Home</a>
     </div>
     
 </body>

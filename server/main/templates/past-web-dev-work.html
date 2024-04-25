@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+    {% load static %}
     <link rel="stylesheet" href="/static/css/past-web-dev-work.css">
     <title>Past Works Home</title>
 </head>
@@ -26,12 +27,11 @@
     </div>
 
     <div class="div-01-layout">
-        <a class="return_btn_01" href="/index">Return to Home Page</a>
 
         <div class="card-body">
 
             <div class="image-container">
-                <img class="image-container-img" src="static/IMG/past-work-img/card-01-im.png" alt="zencounseling-img">
+                <img class="image-container-img" src="{% static 'IMG/past-work-img/card-01-im.png' %}" alt="zencounseling-img">
                 <div class="overlay">
                     <a class="title" href="http://zencounseling.me">Zen Counseling</a>
                 </div>
@@ -47,7 +47,7 @@
         <div class="card-body">
 
             <div class="image-container">
-                <img class="image-container-img" src="static/IMG/past-work-img/card-02-im.png" alt="zencounseling-img">
+                <img class="image-container-img" src="{% static 'IMG/past-work-img/card-02-im.png' %}" alt="zencounseling-img">
                 <div class="overlay">
                     <a class="title" href="http://onesourceclimate.me">One Source Climate</a>
                 </div>
@@ -60,7 +60,7 @@
             </div>
         </div>
 
-
+        <a class="return_btn_01" href="{% url 'main:index' %}">Return to Home Page</a>
     </div>
 
 
