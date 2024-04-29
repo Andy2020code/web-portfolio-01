@@ -22,40 +22,65 @@
 
     <div class="div-01-layout">
 
-
-        <div class="div-01-right-card">
-
-            <div class="introduction">
-                <h1>Hi,<br>I'm Anderson Romano</h1>
+        <div class="div-01-body">
+            
+            <div class="intro_title">
+                <h1>
+                    Hi,<br>
+                    I'm Anderson Romano
+                </h1>
             </div>
 
-            <h1 class="right-title">I Create Web Experiences.</h1>
+            <div class="text_intro_page">
+                <h1 class="text_intro_page_title">I Create Web Experiences.</h1>
+                <p class="text_intro_page_text">Super dedicated full-stack developer devoted to creating seamless web experiences. With a strong focus on building user-friendly front-end interfaces and robust back-end systems, I'm skilled at turning innovative ideas into reality. My tech stack includes HTML, CSS, JavaScript, React, Node.js, and more. Let's bring your digital projects to life, explore my work and let's collaborate!</p>
+                <a href="{% url 'main:resume' %}"><button class="resume-btn">Resume</button></a>
+            </div>
 
-            <p class="right-intro-text">Super dedicated full-stack developer devoted to creating seamless web experiences. With a strong focus on building user-friendly front-end interfaces and robust back-end systems, I'm skilled at turning innovative ideas into reality. My tech stack includes HTML, CSS, JavaScript, React, Node.js, and more. Let's bring your digital projects to life, explore my work and let's collaborate!</p>
-
-            <a href="{% url "main:resume" %}"><button class="resume-btn">See Resume</button></a>
+            <div class="next-div-btn">
+                <div class="devider-next-btn"></div>
+                <a href="#"><img src="{% static  'IMG/index-img/down-arrow.png' %}" alt=""></a>
+                <div class="devider-next-btn"></div>
+            </div>
         </div>
     </div>
 
 
     <div class="div-02-layout">
-        <div class="div-02-profile-card">
+        <div class="div-02-body">
 
-            <div class="lmamw">
-                <h1>Learn more about my Work</h1>
+            <div class="title-div-02">
+                <h1>WHAT I DO</h1>
             </div>
 
-            <div class="lmamw-icons">
-                <img src="/static/IMG/left-img/pic-01.png" alt="">
-                <img src="/static/IMG/left-img/pic-02.png" alt="">
-                <img src="/static/IMG/left-img/pic-03.png" alt="">
-                <img src="/static/IMG/left-img/pic-04.png" alt="">
+            <div class="services-options-div">
+
+                <div class="service service-card-01">
+                    <img src="{% static 'IMG/index-img/services-icons/web-design.png' %}" alt="">
+                    <h1>WEB<br>DEVELOPMENT</h1>
+                    <p>Looking to build a new website or redesign your existing one? VFX Observatory Designs is an Atlanta design company specialized in building websites that look visually appealing and offer the latest functionality to users.</p>
+                </div>
+
+                <div class="service service-card-02">
+                    <img src="{% static 'IMG/index-img/services-icons/camera-lens.png' %}" alt="">
+                    <h1>PHOTOGRAPHY</h1>
+                    <p>We're storytellers. From weddings to family portraits, we specialize in capturing the essence of every moment, ensuring your memories are cherished for a lifetime.</p>
+                </div>
+
+                <div class="service service-card-03">
+                    <img src="{% static 'IMG/index-img/services-icons/film.png' %}" alt="">
+                    <h1>VIDEOGRAPHY</h1>
+                    <p>We're storytellers. From weddings to family portraits, we specialize in capturing the essence of every moment, ensuring your memories are cherished for a lifetime.</p>
+                </div>
+
+                <div class="next-div-btn-02">
+                    <div class="devider-next-btn"></div>
+                    <a href="#"><img src="{% static  'IMG/index-img/down-arrow.png' %}" alt=""></a>
+                    <div class="devider-next-btn"></div>
+                </div>
+
             </div>
 
-            <div class="ca-btn">
-                <a href="{% url "main:past-work-index" %}"><button class="go-btn">Explore My Work</button></a>
-                <a href="{% url "main:services" %}"><button class="go-btn">Let's Collaborate</button></a>
-            </div>
         </div>
     </div>
 
@@ -63,33 +88,44 @@
     
     <div class="div-03-layout">
         
-        <div class="div-03-left">
-            <h1 class="a12">12+</h1>
-            <h1 class="so">Services Offered</h1>
+        <div class="div-03-body">
+
+            <div class="div-03-left">
+                <h1 class="a12">12+</h1>
+                <h1 class="so">Services Offered</h1>
+            </div>
+    
+            <div class="div-03-right">
+                <div class="card card-01">
+                    <h1 class="card-title">Web<br>Portfolio</h1>
+                    <p class="card-text-content">Are you looking to showcase your work and skills in a stunning professional manner? Discover the power of a well-crafted web portfolio!</p>
+                </div>
+    
+                <div class="card card-02">
+                    <h1 class="card-title">Website<br>Maintenance</h1>
+                    <p class="card-text-content">Let us take care of your website, so you can focus on your business. Ensure your online presence remains flawless with our expert maintenance services!</p>
+                </div>
+    
+                <div class="card card-03">
+                    <h1 class="card-title">E-Commerce</h1>
+                    <p class="card-text-content">Ready to take your online store to the next level? Elevate your e-commerce store and watch your online business thrive with our expert solutions!</p>
+                </div>
+    
+                <div class="card card-04">
+                    <h1 class="card-title">Web<br>Apps</h1>
+                    <p class="card-text-content">Empower Your Business with Custom Web Applications. From Concept to Code, We Bring Your Ideas to Life!</p>
+                </div>
+    
+            </div>
+
         </div>
 
-        <div class="div-03-right">
-            <div class="card card-01">
-                <h1 class="card-title">Web Portfolio</h1>
-                <p class="card-text-content">Are you looking to showcase your work and skills in a stunning professional manner? Discover the power of a well-crafted web portfolio!</p>
-            </div>
-
-            <div class="card card-02">
-                <h1 class="card-title">Website Maintenance</h1>
-                <p class="card-text-content">Let us take care of your website, so you can focus on your business. Ensure your online presence remains flawless with our expert maintenance services!</p>
-            </div>
-
-            <div class="card card-03">
-                <h1 class="card-title">E-Commerce</h1>
-                <p class="card-text-content">Ready to take your online store to the next level? Elevate your e-commerce store and watch your online business thrive with our expert solutions!</p>
-            </div>
-
-            <div class="card card-04">
-                <h1 class="card-title">Web Apps</h1>
-                <p class="card-text-content">Empower Your Business with Custom Web Applications. From Concept to Code, We Bring Your Ideas to Life!</p>
-            </div>
-
+        <div class="next-div-btn-03">
+            <div class="devider-next-btn"></div>
+            <a href="#"><img src="{% static  'IMG/index-img/down-arrow.png' %}" alt=""></a>
+            <div class="devider-next-btn"></div>
         </div>
+        
     </div>
 
 
@@ -99,7 +135,9 @@
     <div class="div-04-layout">
         
         <div class="div-04-body">
-            <img src="/static/IMG/img-03.jpg" alt="">
+            <div class="div-04-body-img">
+                <img src="/static/IMG/img-03.jpg" alt="">
+            </div>
 
             <div class="div-04-text">
                 <h1 class="div-04-title-01">Unlock the Full Spectrum of Creativity</h1>
