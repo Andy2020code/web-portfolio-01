@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+    {% load static %}
     <link rel="stylesheet" href="/static/css/graphic-desdign-portfolio.css">
     <title>Graphic Design Portfolio</title>
 </head>
@@ -21,6 +22,70 @@
 
     <div class="div-01-layout">
         <h1 class="title-01">GRAPHIC DESIGN</h1>
+    </div>
+
+    <div class="div-02-layout">
+        <div class="div-02-body">
+
+            <div class="title-div-02">
+                <h1>TRENDING TEMPLATES</h1>
+            </div>
+
+        </div>
+
+        <div class="devider-01"></div>
+
+    </div>
+
+    <div class="div-03-layout">
+        <div class="div-03-body">
+
+            <div class="flyers-div-title">
+                
+                <div class="number-title-01">
+                    <h1 class="n_1">1</h1>
+                    <h1 class="flyer-design">Flyers Design</h1>
+                </div>
+
+                <div class="flyer-div-description">
+                    <div class="description-01">
+                        <h1>GENERAL APPLICATIONS:</h1>
+                        <p><strong>Spreading Awareness:</strong> Are great for creating initial brand awareness or promoting a new product, service, or event.</p>
+                        <p><strong>Targeted Marketing:</strong> Can be distributed strategically in locations frequented by your target audience.</p>
+                        <p><strong>Call to Action:</strong> Include clear calls to action, encouraging recipients to visit a website, make a purchase, or attend an event.</p>
+                    </div>
+
+                    <div class="description-01">
+                        <h1>INDUSTRY-SPECIFIC USES:</h1>
+                        <p><strong>Retail & Restaurants:</strong> Announce new sales, promote special offers, highlight seasonal menus, or advertise upcoming events.</p>
+                        <p><strong>Local Businesses:</strong> Promote local shops, restaurants, or service providers within the community.</p>
+                        <p><strong>Professional Services:</strong> Promote legal, financial, or consulting services, or highlight areas of expertise.</p>
+                    </div>
+
+                    <div class="description-01">
+                        <h1>WANTED BY INDUSTRY:</h1>
+                        <p><strong>Target Audience:</strong> Tailor the design, language, and visuals to resonate with your specific audience.</p>
+                        <p><strong>Visual Appeal:</strong> Use high-quality images, colors, and graphics that are relevant to your industry.</p>
+                        <p><strong>Information Hierarchy:</strong> Present key information clearly and concisely, prioritizing call to actions.</p>                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="designs-samples-layout">
+                <div class="design-samples-div">
+                    <img src="{% static 'IMG/graphic-design-portfolio/item-01.png' %}" alt="">
+                </div>
+    
+                <div class="design-samples-div">
+                    <img src="{% static 'IMG/graphic-design-portfolio/item-02.png' %}" alt="">
+                </div>
+    
+                <div class="design-samples-div">
+                    <img src="{% static 'IMG/graphic-design-portfolio/item-03.png' %}" alt="">
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
