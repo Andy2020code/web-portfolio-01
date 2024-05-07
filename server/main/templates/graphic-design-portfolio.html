@@ -44,10 +44,13 @@
 
                 <div class="number-title-01">
                     <h1 class="n_1">1</h1>
-                    <h1 class="flyer-design">Flyers Design</h1>
+                    <h1 class="flyer-design">Flyers<br>Design</h1>
+                    <button id="toggleButton_01" class="rotateButton-01" onclick="HideShow_01()">
+                        <img src="{% static 'IMG/graphic-design-portfolio/icons-01/arrow-down.png' %}" alt="">
+                    </button>
                 </div>
 
-                <div class="flyer-div-description">
+                <div class="flyer-div-description" id="flyer-div-description">
                     <div class="description-01">
                         <h1>GENERAL APPLICATIONS:</h1>
                         <p><strong>Spreading Awareness:</strong> Are great for creating initial brand awareness or promoting a new product, service, or event.</p>
@@ -95,10 +98,13 @@
                 
                 <div class="number-title-02">
                     <h1 class="n_2">2</h1>
-                    <h1 class="business-proposal-design">Business Proposal Design</h1>
+                    <h1 class="business-proposal-design">Business<br>Proposal<br>Design</h1>
+                    <button id="toggleButton_02" class="rotateButton-02" onclick="HideShow_02()">
+                        <img src="{% static 'IMG/graphic-design-portfolio/icons-01/arrow-down.png' %}" alt="">
+                    </button>
                 </div>
 
-                <div class="business-proposal-div-description">
+                <div class="business-proposal-div-description" id="business-proposal-div-description">
                     <div class="description-02">
                         <h1>GENERAL APPLICATIONS:</h1>
                         <p><strong>Brand Storytelling:</strong> Brochures tell your brand story in a captivating way, highlighting your values, history, and mission. This fosters deeper connections with potential customers.</p>
@@ -162,10 +168,67 @@
             </div>
 
         </div>
+
+    </div>
+
+    <div class="div-05-layout">
+        <div class="div-05-body">
+
+            <div class="store-advertizing-div-title">
+                
+                <div class="number-title-03">
+                    <h1 class="n_3">3</h1>
+                    <h1 class="store-advertizing-design">Store<br>Advertizing<br>Proposal</h1>
+                    <button id="toggleButton_03" class="rotateButton-03" onclick="HideShow_03()"><img src="{% static 'IMG/graphic-design-portfolio/icons-01/arrow-down.png' %}" alt=""></button>
+                </div>
+
+                <div class="store-advertizing-div-description" id="store-advertizing-div-description">
+                    <div class="description-03">
+                        <h1>GENERAL APPLICATIONS:</h1>
+                        <p><strong>Sharing Your Story:</strong> Store advertising proposals help tell people what your store is all about and why they should care. It's like introducing yourself to them and making a connection.</p>
+                        <p><strong>Getting People Interested:</strong> These proposals are like invitations to come check out your store. They help grab people's attention and get them excited about what you have to offer.</p>
+                        <p><strong>Getting People Involved:</strong> With store advertising proposals, you can create fun and interesting ways for people to interact with your store. It's like inviting them to join in on the fun and be part of something special.</p>
+                    </div>
+
+                    <div class="description-03">
+                        <h1>INDUSTRY-SPECIFIC USES:</h1>
+                        <p><strong>Emphasizing Health and Wellness:</strong> In fitness centers or health food stores, proposals showcase the store's commitment to well-being with amenities, classes, and products promoting a healthy lifestyle.</p>
+                        <p><strong>Entertainment and Recreation:</strong> Proposals for amusement parks or theaters highlight memorable experiences and fun activities for relaxation and enjoyment.</p>
+                        <p><strong>Highlighting Unique Offerings:</strong> In retail, proposals emphasize exclusive products, personalized services, or special events that distinguish the store from competitors.</p>
+                    </div>
+
+                    <div class="description-03">
+                        <h1>WANTED BY INDUSTRY:</h1>
+                        <p><strong>Tourism and Hospitality:</strong> Hotels and travel agencies desire proposals that highlight unique travel experiences, accommodations, and attractions, enticing potential guests to book their next getaway.</p>
+                        <p><strong>Retail Customer Engagement:</strong> Retailers seek proposals that focus on customer engagement strategies, loyalty programs, and personalized shopping experiences, aiming to drive foot traffic and increase sales.</p>
+                        <p><strong>Food and Beverage:</strong> Restaurants and food vendors yearn for proposals showcasing mouthwatering dishes, innovative menus, and memorable dining experiences, enticing hungry customers to indulge in their culinary delights.</p>                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="designs-samples-layout-03">
+                <div class="design-samples-div-03">
+                    <img src="{% static 'IMG/graphic-design-portfolio/item-13.png' %}" alt="">
+                </div>
+    
+                <div class="design-samples-div-03">
+                    <img src="{% static 'IMG/graphic-design-portfolio/item-14.png' %}" alt="">
+                </div>
+    
+                <div class="design-samples-div-03">
+                    <img src="{% static 'IMG/graphic-design-portfolio/item-15.png' %}" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="return-home-btn">
+        <a href="{% url 'main:index' %}"><button>Home Page</button></a>
     </div>
 
 
-
+    <script src="{% static 'js/graphic-design-portfolio.js' %}"></script>
 
 </body>
 </html>
